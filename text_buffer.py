@@ -1,5 +1,5 @@
 class TextBuffer:
-    def __init__(self, line_length, display_lines, max_length=4096):
+    def __init__(self, line_length, display_lines, max_length=2048):
         self.line_length = line_length
         self.display_lines = display_lines
         self.max_length = max_length
